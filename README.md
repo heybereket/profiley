@@ -16,7 +16,7 @@
 
 ## Overview
 
-Profiley is a more dynamic and stylish way to look at GitHub profile data from every user on GitHub. Currently some features include repository counts, fork counts, star counts, public gists, followers, following, view profile, view repository, and more!
+Profiley is a more dynamic and stylish way to look at GitHub profile. Profiley uses GitHub API, so it has every GitHub user, so no worries there! Currently some features include repository counts, fork counts, star counts, public gists, followers, following, view profile, view repository, and more!
 
 
 ## Getting Started
@@ -30,16 +30,17 @@ To get started, simply clone or fork this repo: (https://github.com/bereketsemag
 
 ## Error Guide
 
-If something is broken or does not work, type  ```git status``` in terminal.
+If something is broken or does not work, type  ```git status``` in terminal. <br>
 If an error appears, report it in issues as soon as possible.
 
 ## Deployment
 
-Install Now CLI
+Install Now CLI <br>
 
 ```npm install -g now```
 
-Then, deploy! :)
+Then, deploy! :) <br>
+
 ```now```
 
 ## Built with
