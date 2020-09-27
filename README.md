@@ -25,7 +25,7 @@ To get started, simply clone or fork this repo: (https://github.com/bereketsemag
 <br>
 **Don't know how?**
 1. Go to terminal in your editor
-2. Type ```git clone https://github.com/bereketsemagn/profiley.git```
+2. Type ```$ git clone https://github.com/bereketsemagn/profiley.git```
 3. That' it! View the site at localhost:5000
 
 ## Error Guide
@@ -37,11 +37,11 @@ If an error appears, report it in issues as soon as possible.
 
 Install Now CLI <br>
 
-```npm install -g now```
+```$ npm install -g now```
 
 Then, deploy! :) <br>
 
-```now```
+```$ now```
 
 ## Built with
 
