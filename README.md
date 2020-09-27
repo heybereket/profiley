@@ -28,7 +28,7 @@ To get started, simply clone or fork this repo: (https://github.com/bereketsemag
 2. Type ```$ git clone https://github.com/bereketsemagn/profiley.git```
 3. That' it! View the site at localhost:5000
 
-Or..just visit https://www.profiley.tk
+Or....just visit https://www.profiley.tk
 
 ## Error Guide
 
