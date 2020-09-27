@@ -8,24 +8,13 @@
   An elegant way to look at your GitHub profile, created with GitHub API.</a>.
 </p>
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=Astro.Astro">
-    <img alt="Version" src="https://img.shields.io/visual-studio-marketplace/v/Astro.Astro" />
-  </a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=Astro.Astro">
-    <img alt="Downloads" src="https://img.shields.io/visual-studio-marketplace/d/Astro.Astro" />
-  </a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=Astro.Astro">
-    <img alt="Installs" src="https://img.shields.io/visual-studio-marketplace/i/Astro.Astro" />
+  Built and designed with ❤️ by Bereket Semagn.
   </a>
 </p>
 
-## Installation via VS Code
+## Overview
 
-1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
-2. Search for `Astro Theme`
-3. Click **Install** to install it
-4. Click **Reload** to reload the editor
-5. Code > Preferences > Color Theme > **Astro Theme**
+Profiley is a more dynamic and stylish way to look at GitHub profile data from every user on GitHub. Currently some features include repository counts, fork counts, star counts, public gists, followers, following, view profile, view repository, and more!
 
 ## Color Reference
 
