@@ -12,52 +12,61 @@
   </a>
 </p>
 
+![profiley Demo](assets/demo.gif)
+
 ## Overview
 
 Profiley is a more dynamic and stylish way to look at GitHub profile data from every user on GitHub. Currently some features include repository counts, fork counts, star counts, public gists, followers, following, view profile, view repository, and more!
 
-## Color Reference
 
-### Syntax Colors
+## Getting Started
 
-|                               Color                                | Usage                                           |
-| :----------------------------------------------------------------: | ----------------------------------------------- |
-| ![#c3a6ff](https://via.placeholder.com/10/c3a6ff?text=+) `#c3a6ff` | Keywords, constants, template literals          |
-| ![#ffd580](https://via.placeholder.com/10/ffd580?text=+) `#ffd580` | Functions, classes, object literal keys         |
-| ![#ffae57](https://via.placeholder.com/10/ffae57?text=+) `#ffae57` | Constants, operators                            |
-| ![#bae67e](https://via.placeholder.com/10/bae67e?text=+) `#bae67e` | Strings, markdown headings                      |
-| ![#5ccfe6](https://via.placeholder.com/10/5ccfe6?text=+) `#5ccfe6` | Special keywords, classes, markdown code blocks |
-| ![#a2aabc](https://via.placeholder.com/10/a2aabc?text=+) `#a2aabc` | Variables, property names, tags                 |
+To get started, simply clone or fork this repo: (https://github.com/bereketsemagn/profiley.git) <br>
+<br>
+**Don't know how?**
+1. Go to terminal in your editor
+2. Type ```git clone https://github.com/bereketsemagn/profiley.git```
+3. That' it! View the site at localhost:5000
 
-### UI Colors
+End with an example of getting some data out of the system or using it for a little demo
 
-|                               Color                                | Usage                                      |
-| :----------------------------------------------------------------: | ------------------------------------------ |
-| ![#171c28](https://via.placeholder.com/10/171c28?text=+) `#171c28` | Workbench background                       |
-| ![#1d2433](https://via.placeholder.com/10/1d2433?text=+) `#1d2433` | Editor background                          |
-| ![#2f3b54](https://via.placeholder.com/10/2f3b54?text=+) `#2f3b54` | Highlight, widgets, panels                 |
-| ![#6679a4](https://via.placeholder.com/10/6679a4?text=+) `#6679a4` | Dividers, subtle UI elements               |
-| ![#8695b7](https://via.placeholder.com/10/8695b7?text=+) `#8695b7` | Status bar text, buttons, etc              |
-| ![#d7dce2](https://via.placeholder.com/10/d7dce2?text=+) `#d7dce2` | Active text, anything that should be white |
-| ![#ffcc66](https://via.placeholder.com/10/ffcc66?text=+) `#ffcc66` | Accent, list tree titles, badges, etc      |
-| ![#bae67e](https://via.placeholder.com/10/bae67e?text=+) `#bae67e` | Addition highlights                        |
-| ![#ef6b73](https://via.placeholder.com/10/ef6b73?text=+) `#ef6b73` | Deletion highlights, errors, warnings      |
-| ![#5ccfe6](https://via.placeholder.com/10/5ccfe6?text=+) `#5ccfe6` | Modified highlights                        |
+## Running the tests
 
-## Theming Reference
+Explain how to run the automated tests for this system
 
-[VS Code Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference)
+### Break down into end to end tests
 
-[VS Code Theme Documentation](https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers)
+Explain what these tests test and why
 
-[VS Code Publishing Extensions](https://code.visualstudio.com/docs/extensions/publish-extension)
-
-Syntax & Workbench colors based on [Ayu Mirage Theme](https://github.com/teabyii/vscode-ayu)
-
-```bash
-vsce publish patch/minor/major
 ```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Node.js](https://nodejs.org/en/docs/) - The server runtime used
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - API, and code language used
+* [jQuery](https://api.jquery.com/) - JavaScript library used
+* [BootStrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/) - CSS frontend framework used
+* [Cloudflare](https://developers.cloudflare.com/docs/) - API used
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Styling used
+
+## Versioning
+
+Profiley uses [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/bereketsemagn/profiley). 
 
 ## Contributing
 
-If you would like to contribute, simply fork this repo, or clone it, make your changes, and submit a PR.
+Please read [CONTRIBUTING.md](https://github.com/bereketsemagn/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests for profiley.
