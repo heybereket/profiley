@@ -21,7 +21,8 @@ Profiley is a more dynamic and stylish way to look at GitHub profile data from e
 
 ## Getting Started
 
-To get started, simply clone or fork this repo: (https://github.com/bereketsemagn/profiley.git)
+To get started, simply clone or fork this repo: (https://github.com/bereketsemagn/profiley.git) <br>
+<br>
 **Don't know how?**
 1. Go to terminal in your editor
 2. Type ```git clone https://github.com/bereketsemagn/profiley.git```
