@@ -57,12 +57,13 @@ $(document).ready(function(){
                 <span class="badge badge-primary">Public Gists: ${user.public_gists}</span> <br>
                 <span class="badge badge-success">Followers: ${user.followers}</span> <br>
                 <span class="badge badge-info">Following: ${user.following}</span>
+                </div>
                 <br><br>
                 <div class="section2">
-                  <div class="list-group-item">Company: ${user.company}</li>
-                  <div class="list-group-item">Website/blog: <a href="${user.blog}" target="_blank">${user.blog}</a></li>
-                  <div class="list-group-item">Location: ${user.location}</li>
-                  <div class="list-group-item">Member Since: ${user.created_at}</li>
+                  <div class="desc1">Company: ${user.company}</li>
+                  <div class="2">Website/blog: <a href="${user.blog}" target="_blank">${user.blog}</a></li>
+                  <div class="3">Location: ${user.location}</li>
+                  <div class="4">Member Since: ${user.created_at}</li>
                 </ul>
                 </div>
               </div>

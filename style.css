@@ -28,10 +28,24 @@ a{
     height: 250px;
     position: relative;
     font-size: 20px;
-    left: 47.5%;
-    top: -500px;
+    left: 2.3%;
+    top: -430px;
     text-decoration: none;
     color: black;
+    float: left;
+}
+
+.section3{
+    border-radius: 50%;
+    width: 45%;
+    height: 250px;
+    position: relative;
+    font-size: 20px;
+    left: 33%;
+    top: -250px;
+    text-decoration: none;
+    color: black;
+    float: left;
 }
 
 .github {
@@ -45,6 +59,11 @@ a{
     height: 50px;
     width: 50px;
 }
+
+.github:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 
 .lead {
     font-family: 'Raleway';
