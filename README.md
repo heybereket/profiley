@@ -28,33 +28,21 @@ To get started, simply clone or fork this repo: (https://github.com/bereketsemag
 2. Type ```git clone https://github.com/bereketsemagn/profiley.git```
 3. That' it! View the site at localhost:5000
 
-End with an example of getting some data out of the system or using it for a little demo
+## Error Guide
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+If something is broken or does not work, type  ```git status``` in terminal.
+If an error appears, report it in issues as soon as possible.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Install Now CLI
 
-## Built With
+```npm install -g now```
+
+Then, deploy! :)
+```now```
+
+## Built with
 
 * [Node.js](https://nodejs.org/en/docs/) - The server runtime used
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - API, and code language used
