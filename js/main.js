@@ -24,15 +24,19 @@ $(document).ready(function(){
               <div class="card">
                 <div class="row">
                   <div class="col-md-7">
-                    <strong>${repo.name}</strong>: ${repo.description}
+
+                  <br>
+                    <strong>${repo.name}</strong>: <br> ${repo.description} <br>
                   </div>
                   <div class="col-md-3">
-                    <span class="badge badge-dark">Forks: ${repo.forks_count}</span>
-                    <span class="badge badge-primary">Watchers: ${repo.watchers_count}</span>
-                    <span class="badge badge-success">Stars: ${repo.stargazers_count}</span>
+                    <span class="badge badge-dark">Forks: ${repo.forks_count}</span> <br>
+                    <span class="badge badge-primary">Watchers: ${repo.watchers_count}</span> <br>
+                    <span class="badge badge-success">Stars: ${repo.stargazers_count}</span> <br>
                   </div>
                   <div class="col-md-2">
-                    <a href="${repo.html_url}" target="_blank" class="btn btn-dark">Repo Page</a>
+                    <a href="${repo.html_url}" target="_blank" class="btn btn-dark">Visit repository</a>
+
+                    <br>
                   </div>
                 </div>
               </div>
@@ -48,17 +52,17 @@ $(document).ready(function(){
                 <img class="img-thumbnail avatar" src="${user.avatar_url}">
                 <a target="_blank" class="view-profile" href="${user.html_url}">Visit profile</a>
               </div>
-              <div class="col-md-9">
-                <span class="badge badge-dark">Public Repos: ${user.public_repos}</span>
-                <span class="badge badge-primary">Public Gists: ${user.public_gists}</span>
-                <span class="badge badge-success">Followers: ${user.followers}</span>
+              <div class="section3">
+                <span class="badge badge-dark">Public Repos: ${user.public_repos}</span> <br> 
+                <span class="badge badge-primary">Public Gists: ${user.public_gists}</span> <br>
+                <span class="badge badge-success">Followers: ${user.followers}</span> <br>
                 <span class="badge badge-info">Following: ${user.following}</span>
                 <br><br>
-                <ul class="list-group">
-                  <li class="list-group-item">Company: ${user.company}</li>
-                  <li class="list-group-item">Website/blog: <a href="${user.blog}" target="_blank">${user.blog}</a></li>
-                  <li class="list-group-item">Location: ${user.location}</li>
-                  <li class="list-group-item">Member Since: ${user.created_at}</li>
+                <div class="section2">
+                  <div class="list-group-item">Company: ${user.company}</li>
+                  <div class="list-group-item">Website/blog: <a href="${user.blog}" target="_blank">${user.blog}</a></li>
+                  <div class="list-group-item">Location: ${user.location}</li>
+                  <div class="list-group-item">Member Since: ${user.created_at}</li>
                 </ul>
                 </div>
               </div>
