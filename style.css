@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Raleway:wght@500&display=swap');
+
+body {
+    background-color: #eedd82;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Raleway';
+    outline: none;
+    font-size: 60px;
+    border: none;
+    position: relative;
+    left: 25%;
+    margin-top: 50px;
+}
+
+.lead {
+    font-family: 'Raleway';
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    position: relative;
+    left: 25%;
+    top: -30px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 30%;
+    top: -275px;
+}
+
+.card-header{
+    border-radius: 50%;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    font-size: 50px;
+    left: 47%;
+    margin-top: -10px;
+}
+
+.view-profile {
+    border-radius: 50%;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    font-size: 20px;
+    left: 31.5%;
+    top: -410px;
+    text-decoration: none;
+    color: lightseagreen;
+}
+  
+  .profile {
+    margin-top: 10px;
+  }
+
+  .card {
+      font-family: 'Raleway';
+      font-weight: 500;
+  }
+
+  #searchUser {
+    font-family: 'Poppins';
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.10);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.10);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.10);
+    height: 50px;
+    width: 50%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    position: relative;
+    left: 25%;
+    top: -30px;
+  }
+
+input {
+    text-indent: 20px;
+  }
